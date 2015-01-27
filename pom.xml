@@ -4,7 +4,7 @@
   <groupId>net.toxbank</groupId>
   <artifactId>toxbank-api-beans</artifactId>
   <name>ToxBank API Beans</name>
-  <version>0.0.7-SNAPSHOT</version>
+  <version>1.0.0-SNAPSHOT</version>
   <distributionManagement>
     <snapshotRepository>
       <id>toxbank-snapshots</id>
@@ -111,8 +111,8 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
   <scm>
-    <developerConnection>scm:git:git@github.com:ToxBank/toxbank-api-beans.git</developerConnection>
-    <url>https://github.com/ToxBank/toxbank-api-beans</url>
+    <developerConnection>scm:git:git@github.com:enanomapper/toxbank-api-beans.git</developerConnection>
+    <url>https://github.com/enanomapper/toxbank-api-beans</url>
   </scm>
   <organization>
     <name>ToxBank project</name>
