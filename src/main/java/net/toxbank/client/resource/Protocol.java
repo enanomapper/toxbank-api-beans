@@ -8,15 +8,15 @@ public class Protocol extends AbstractToxBankResource {
 		RESEARCH,SOP,
 		REPORT {
 			@Override
-			public String getPrefix() {
-				return "SEURAT-Report";
+			public String getPrefix(String prefix) {
+				return prefix + "-Report";
 			}
 		};
-		public String getPrefix() {
-			return "SEURAT-Protocol";
+		public String getPrefix(String prefix) {
+			return prefix + "-Protocol";
 		}
-		public String getIDPattern() {
-			return String.format("%s%s",getPrefix(),"-%d-%d");
+		public String getIDPattern(String prefix) {
+			return String.format("%s%s",getPrefix(prefix),"-%d-%d");
 		}
 	};
 	private static final long serialVersionUID = -8372109619715612869L;
