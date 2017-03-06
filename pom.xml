@@ -6,14 +6,15 @@
   <name>ToxBank API Beans</name>
   <version>1.0.0-SNAPSHOT</version>
   <distributionManagement>
-    <snapshotRepository>
-      <id>toxbank-snapshots</id>
-      <url>http://ambit.uni-plovdiv.bg:8083/nexus/content/repositories/toxbank-snapshots</url>
-    </snapshotRepository>
-    <repository>
-      <id>toxbank-releases</id>
-      <url>http://ambit.uni-plovdiv.bg:8083/nexus/content/repositories/toxbank-releases</url>
+   <repository>
+        <id>toxbank-releases</id>
+        <url>https://nexus.ideaconsult.net/content/repositories/toxbank-releases</url>
     </repository>
+    <repository>
+        <id>toxbank-snapshots</id>
+        <url>https://nexus.ideaconsult.net/content/repositories/toxbank-snapshots</url>
+    </repository>
+        
   </distributionManagement>
   <description>The Java ToxBank API client software.</description>
   <url>http://toxbank.github.com/toxbank-api-beans</url>
@@ -56,11 +57,16 @@
   </licenses>  
   <repositories>
     <repository>
-      <id>ambit-plovdiv</id>
-      <url>http://ambit.uni-plovdiv.bg:8083/nexus/content/repositories/thirdparty</url>
-      <snapshots>
-        <enabled>false</enabled>
-      </snapshots>
+        <id>nexus-idea</id>
+        <url>https://nexus.ideaconsult.net/content/repositories/thirdparty</url>
+    </repository>
+   <repository>
+        <id>nexus-idea-releases</id>
+        <url>https://nexus.ideaconsult.net/content/repositories/releases</url>
+    </repository>
+    <repository>
+        <id>nexus-idea-snapshots</id>
+        <url>https://nexus.ideaconsult.net/content/repositories/snapshots</url>
     </repository>
     <repository>
       <id>mvnrepository</id>
