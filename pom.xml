@@ -6,15 +6,15 @@
   <name>ToxBank API Beans</name>
   <version>1.0.0-SNAPSHOT</version>
   <distributionManagement>
+    <snapshotRepository>
+      <id>toxbank-snapshots</id>
+      <url>https://nexus.ideaconsult.net/content/repositories/toxbank-snapshots</url>
+    </snapshotRepository>
    <repository>
         <id>toxbank-releases</id>
         <url>https://nexus.ideaconsult.net/content/repositories/toxbank-releases</url>
     </repository>
-    <repository>
-        <id>toxbank-snapshots</id>
-        <url>https://nexus.ideaconsult.net/content/repositories/toxbank-snapshots</url>
-    </repository>
-        
+    
   </distributionManagement>
   <description>The Java ToxBank API client software.</description>
   <url>http://toxbank.github.com/toxbank-api-beans</url>
